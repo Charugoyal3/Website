@@ -1,0 +1,96 @@
+/* OUR COMPANY SECTION */
+body {
+    font-family: sans-serif;
+}
+
+#edit {
+    padding-left: 5rem;
+    padding-right: 7rem;
+    position: relative;
+    font-family: sans-serif;
+    background-color: #231834 !important;
+    padding-top: 20px;
+}
+
+#edit1 {
+    position: relative;
+    color: #627792;
+    font-size: 20px;
+    text-align: justify;
+    padding-right: 70px;
+    padding-top: 25px;
+}
+
+/* SERVICES IMAGE CARD */
+.services_img {
+    position: absolute;
+    z-index: 1;
+    top: 77em;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+/* TEXT EDITION OVER IMAGES */
+.text-block {
+    position: absolute;
+    z-index: 2;
+    top: 12em;
+    margin-left: 60px;
+    margin-bottom: 30px;
+    background-color: white;
+    padding-right: 20px;
+    font-family: sans-serif;
+}
+
+.text-block1 {
+    position: absolute;
+    z-index: 2;
+    top: 12em;
+    margin-left: 92px;
+    margin-bottom: 30px;
+    background-color: white;
+    padding-right: 20px;
+    font-family: sans-serif;
+}
+
+.text-block2 {
+    position: absolute;
+    z-index: 2;
+    top: 12em;
+    margin-left: 92px;
+    margin-bottom: 30px;
+    background-color: white;
+    padding-right: 20px;
+    font-family: sans-serif;
+}
+
+/* button edition over images */
+.btn2 {
+    background-color: white;
+    border: none;
+    color: #17aad7;
+    padding: 8px 25px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-left: 50px;
+    transition: 0.8s;
+}
+
+.btn2:hover {
+    background-color: #ff6733;
+    color: white;
+}
+
+/* OUR COMPANY BOTTOM  */
+#our-company_bottom {
+    background-color: rgb(243, 246, 249);
+    height: 18em;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 30px;
+    font-size: medium;
+}
